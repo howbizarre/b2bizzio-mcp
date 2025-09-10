@@ -8,20 +8,27 @@
     "b2bizzio-mcp-server": "./build/index.js"
   },
   "scripts": {
-    "build": "tsc && chmod 755 build/index.js",
+    "build": "tsc",
     "start": "node build/index.js",
     "dev": "tsc && node build/index.js"
   },
-  "keywords": ["mcp", "server", "typescript", "b2bizzio"],
+  "keywords": [
+    "mcp",
+    "server",
+    "typescript",
+    "b2bizzio"
+  ],
   "author": "B2Bizzio Team",
   "license": "MIT",
-  "files": ["build"],
+  "files": [
+    "build"
+  ],
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.4",
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@types/node": "^20.11.0",
+    "@types/node": "^24.3.1",
     "typescript": "^5.3.3"
   },
   "engines": {
